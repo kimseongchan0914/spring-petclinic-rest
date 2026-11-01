@@ -63,7 +63,6 @@ class ValidatorTests {
 
         LocaleContextHolder.setLocale(Locale.ENGLISH);
         Visit visit = new Visit();
-        visit.setDate(null);
         visit.setDescription("rabies shot");
 
         Validator validator = createValidator();
